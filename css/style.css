@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    color: #343a40;
+    background-color: rgb(241, 241, 241);
+}
+
+/* Tipografía de Encabezados */
+h1, h2, h3, h4 {
+    font-family: 'Georgia', serif;
+    color: #660057;
+    margin-bottom: 0.5em;
+}
+
+h1 { font-size: 2.2rem; }
+h2 { font-size: 1.8rem; border-bottom: 2px solid #dee2e6; padding-bottom: 5px; }
+h3 { font-size: 1.5rem; }
+
+/* Enlaces Generales */
+a {
+    color: #f542dd;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #a200ff;
+    text-decoration: underline;
+}
+
+/* Encabezado */
+header {
+    background-color: #660057;
+    color: white;
+    padding: 1rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Título de la Academia en el Header */
+header h1 {
+    color: white;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+}
+
+/* Navegación (Menu) */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: 500;
+    padding: 5px 0;
+    position: relative;
+    text-transform: uppercase;
+}
+
+/* Indicador de página activa o hover */
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #ff0088;
+    text-decoration: none;
+}
+
+/* Contenido Principal */
+main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Estilo Base para Secciones */
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Pie de Página */
+footer {
+    background-color: #660044;
+    color: white;
+    text-align: center;
+    padding: 20px 5%;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #ff0055;
+}
+.curso-ingles img {
+    max-width: 150px;
+}
+.curso-frances img {
+    max-width: 150px;
+}
+.curso-aleman img {
+    max-width: 150px;
+}
+/* Estilos de Componentes Comunes (Botones/CTA) */
+.boton {
+    display: inline-block;
+    background-color: #ff0073;
+    color: #ffffff !important;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.2s;
+    border: 2px solid #ff0066;
+}
+
+.boton:hover {
+    background-color: transparent;
+    color: #ff0066 !important;
+    transform: translateY(-2px);
+}
